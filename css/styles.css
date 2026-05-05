@@ -275,7 +275,7 @@ footer {
   border-top: 1px solid var(--border);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .join-btn {
     width: auto;
     display: inline-flex;
@@ -290,6 +290,14 @@ footer {
 
   .status-dot {
     padding: 5px;
+  }
+
+  .server-tags {
+    text-align: center;
+  }
+
+  .server-list {
+    text-align: center;
   }
 }
 
